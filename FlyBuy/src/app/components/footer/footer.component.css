@@ -1,0 +1,48 @@
+footer{
+  padding: 2% 2% 2% 2%;
+  display: flex;
+  justify-content: space-between;
+  background-color:rgb(17, 17, 17);
+  font-size: 12px;
+  line-height: 2;
+  font-family: 'Helvetica';
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+}
+.rightSide{
+  width: 10%;
+}
+.twit{
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.face {
+  width: 27px;
+  height: 27px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.insta {
+  width: 25px;
+  height: 25px;
+}
+.names {
+  color: rgb(100, 100, 100);
+}
+
+.names p {
+  font-size: 14px;
+  color: aliceblue;
+}
+
+.list {
+  font-size: 14px;
+  margin-left: 6%;
+}
+.secure{
+  color: aliceblue;
+}

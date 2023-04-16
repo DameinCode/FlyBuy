@@ -1,0 +1,102 @@
+header{
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu-wrapper{
+    display: flex;
+    align-items: center;
+}
+.menu-wrapper button{
+    border:none;
+    background-color: inherit;
+}
+.Info{
+    width: 40%;
+    background-color: cadetblue;
+}
+.user-wrapper{
+    width: 10%;
+    background-color: chocolate;
+    
+}
+/*  */
+.searchBox {
+    background: #03254c;
+    width: 30%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+}
+.searchBox input{
+    padding-left: 8px;
+}
+.searchBox:hover > .searchButton {
+  background: white;
+  color : #03254c;
+}
+.searchButton {
+    color : white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #03254c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+ 
+/* user */
+.UserSets{
+    width: 15%;
+}
+.UserLogined{
+    display: flex;
+    justify-content:space-around;
+}
+.UserLogOuted{
+    display: flex;
+    justify-content: center;
+}
+.btn-sign{
+    background-color: white;
+    border: none;
+}
+
+.sign-up{
+    border: none;
+    background-color: white;
+    color:blue;
+}
+
+.answer {
+    top: 40px;
+    background-color: #03254c;
+    z-index: 100;
+    color: white;
+    position: absolute;
+    display: block;
+}
+.answer--open{
+    width: 23%;
+    left: 420px;
+
+}
+.answer--close{
+    width: 28%;
+    left: 500px;
+}
+

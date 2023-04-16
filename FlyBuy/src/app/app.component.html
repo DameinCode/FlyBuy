@@ -1,0 +1,13 @@
+<app-sidebar></app-sidebar>
+<div class = "main" [ngClass] = "isOpen ? '' : 'sidebar--close' ">
+  <div class = "alerts">
+    <p *ngFor="let alert of alerts">
+      <ngb-alert [type]="alert.type" (closed)="close(alert)">{{ alert.message }}</ngb-alert>
+    </p>
+</div>
+
+  <app-header></app-header>
+  <router-outlet></router-outlet>
+  <div class = "full"></div><!--Для заполнения пустого пространство между header и footer. Таким образом, footer будет всегда стоять снизу-->
+  <app-footer></app-footer>
+</div>

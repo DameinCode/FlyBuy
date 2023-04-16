@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    position: relative;
+
+    transition: 1s;
+    margin-left: 345px;
+}
+.sidebar--close{
+    margin-left: 80px;
+}
+.full{
+    flex-grow: 1;
+}
+
+.alerts{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
